@@ -1,0 +1,110 @@
+
+:root {
+  --main-color: #2a4d69;
+  --bg-color: #1a1c1e;
+  --card-color: #1f2933;
+  --text-color: #f4f4f4;
+  --heading-color: #8ab4d9;
+  --link-color: #7ab7ff;
+  --visited-color: #e7e2f0;
+  --font: Arial, sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  line-height: 1.5;
+}
+
+
+header {
+  background-color: var(--main-color);
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: var(--heading-color);
+}
+
+h3 {
+  color: var(--text-color);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--main-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:visited {
+  color: var(--visited-color);
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+blockquote {
+  border-left: 4px solid var(--main-color);
+  margin-left: 0;
+  padding-left: 15px;
+  font-style: italic;
+}
+
+
+.card {
+  background-color: var(--card-color);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.reference {
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+#intro {
+  font-size: 1.2em;
+}
+
+
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  border-top: 1px solid var(--main-color);
+}
